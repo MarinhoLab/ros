@@ -13,6 +13,6 @@ RUN apt-get update -q \
 RUN python3 -m pip install --upgrade dqrobotics --break-system-packages
 
 # Run install script
-COPY --from=repo lyrical/install.sh /root/install.sh
+COPY lyrical/install.sh /root/install.sh
 WORKDIR /root/
 RUN chmod +x install.sh && . install.sh && rm install.sh
