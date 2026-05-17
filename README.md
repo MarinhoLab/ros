@@ -14,5 +14,5 @@ Base `ros` images used in MarinhoLab. Main use case is to serve as base images f
 
 All base images listed for trackability.
 
-`dqrobotics`: https://github.com/dqrobotics/container
-`ubuntu`: https://hub.docker.com/_/ubuntu/
+- `dqrobotics`: https://github.com/dqrobotics/container
+- `ubuntu`: https://hub.docker.com/_/ubuntu/
